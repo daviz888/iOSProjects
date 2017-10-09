@@ -477,7 +477,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJF-c2-O6o">
-                                <rect key="frame" x="0.0" y="28" width="28" height="28"/>
+                                <rect key="frame" x="16" y="28" width="28" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Izq-kK-CXM"/>
                                     <constraint firstAttribute="width" constant="28" id="yDN-1d-5TJ"/>
@@ -538,7 +538,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FJF-c2-O6o" firstAttribute="leading" secondItem="PGu-yK-T02" secondAttribute="leading" id="0FA-xU-sJS"/>
+                            <constraint firstItem="FJF-c2-O6o" firstAttribute="leading" secondItem="PGu-yK-T02" secondAttribute="leading" constant="16" id="0FA-xU-sJS"/>
                             <constraint firstItem="TIZ-30-A0q" firstAttribute="top" secondItem="FJF-c2-O6o" secondAttribute="bottom" constant="20" id="8MF-CF-sc8"/>
                             <constraint firstItem="oKr-Yo-hSB" firstAttribute="top" secondItem="PGu-yK-T02" secondAttribute="top" constant="8" id="Fk5-5e-8x2"/>
                             <constraint firstItem="TIZ-30-A0q" firstAttribute="leading" secondItem="PGu-yK-T02" secondAttribute="leading" id="IMF-w6-zAC"/>
