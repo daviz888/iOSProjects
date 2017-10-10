@@ -21,6 +21,7 @@
 		8B5B61981F87FB820080A49B /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B61971F87FB820080A49B /* CreateAccountVC.swift */; };
 		8B62E73A1F8BDCD3004F4AB5 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62E7391F8BDCD3004F4AB5 /* AvatarPickerVC.swift */; };
 		8B62E73C1F8BDF5F004F4AB5 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62E73B1F8BDF5F004F4AB5 /* AvatarCell.swift */; };
+		8B62E73E1F8BF2EB004F4AB5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62E73D1F8BF2EB004F4AB5 /* CircleImage.swift */; };
 		8BE39ADB1F86D05100D7530B /*  ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE39ADA1F86D05100D7530B /*  ChannelVC.swift */; };
 		8BE39ADD1F86D06000D7530B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE39ADC1F86D06000D7530B /* ChatVC.swift */; };
 		8BE39ADE1F86D3EF00D7530B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE39AD81F86CFEE00D7530B /* SWRevealViewController.m */; };
@@ -44,6 +45,7 @@
 		8B5B61971F87FB820080A49B /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		8B62E7391F8BDCD3004F4AB5 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		8B62E73B1F8BDF5F004F4AB5 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		8B62E73D1F8BF2EB004F4AB5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		8BE39AD71F86CFED00D7530B /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		8BE39AD81F86CFEE00D7530B /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8BE39AD91F86CFEE00D7530B /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				8B5B61901F87DEE70080A49B /* GradientView.swift */,
 				8B4775AF1F8A8E6F00E21C2C /* RoundedButton.swift */,
 				8B62E73B1F8BDF5F004F4AB5 /* AvatarCell.swift */,
+				8B62E73D1F8BF2EB004F4AB5 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				8BE39ADD1F86D06000D7530B /* ChatVC.swift in Sources */,
 				8B62E73A1F8BDCD3004F4AB5 /* AvatarPickerVC.swift in Sources */,
 				8B4775B01F8A8E6F00E21C2C /* RoundedButton.swift in Sources */,
+				8B62E73E1F8BF2EB004F4AB5 /* CircleImage.swift in Sources */,
 				8BE39ADB1F86D05100D7530B /*  ChannelVC.swift in Sources */,
 				8B4775B21F8A9F8600E21C2C /* UserDataService.swift in Sources */,
 				8B5B61981F87FB820080A49B /* CreateAccountVC.swift in Sources */,
