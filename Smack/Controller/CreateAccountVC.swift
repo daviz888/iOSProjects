@@ -41,6 +41,7 @@ class CreateAccountVC: UIViewController {
     @IBAction func createAccountPressed(_ sender: Any) {
         spinner.isHidden = false
         spinner.startAnimating()
+        print("Creaing User Account")
         guard let name = userNameTxt.text, userNameTxt.text != "" else { return }
         guard let email = emailTxt.text, emailTxt.text != "" else { return }
         guard let pass = passTxt.text, passTxt.text != "" else { return }
@@ -56,12 +57,21 @@ class CreateAccountVC: UIViewController {
                                 self.performSegue(withIdentifier: UNWIND, sender: nil)
                                 
                                 NotificationCenter.default.post(name: NOTIF_USER_DATA_DID_CHANGE, object: nil)
+                            } else {
+                                print("Error in createUser")
                             }
                         })
+                    } else {
+                        print("Error in loginUser")
                     }
                 })
                
                
+            } else {
+                self.spinner.isHidden = true
+                self.spinner.stopAnimating()
+                print("Error in registering User")
+                print(success.description)
             }
         }
         
